@@ -6,7 +6,7 @@
 Summary:	Mod_zipread is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	0.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Servers
 License:	GPL
 URL:		http://modzipread.sourceforge.net/
@@ -22,8 +22,6 @@ Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	zziplib-devel
 BuildRequires:	file
-Provides:	apache2-mod_zipread
-Obsoletes:	apache2-mod_zipread
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
