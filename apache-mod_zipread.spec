@@ -23,6 +23,7 @@ BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	zziplib-devel
 BuildRequires:	file
 Epoch:		1
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Mod ZipRead is an Apache module to browser Zip Archives. It uses
