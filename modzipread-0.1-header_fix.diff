@@ -1,0 +1,10 @@
+--- mod_zipread.c	2003-08-11 14:41:02.000000000 +0200
++++ mod_zipread.c.oden	2003-09-10 12:03:22.000000000 +0200
+@@ -28,7 +28,6 @@
+  *
+  */
+ 
+-#include "zzip-file.h"
+ #include "zziplib.h"
+ 
+ #include "httpd.h"
