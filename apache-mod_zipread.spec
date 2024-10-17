@@ -9,7 +9,7 @@ Version:	0.1
 Release:	16
 Group:		System/Servers
 License:	GPL
-URL:		http://modzipread.sourceforge.net/
+URL:		https://modzipread.sourceforge.net/
 Source0: 	modzipread-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Patch0:		modzipread-0.1-header_fix.diff
